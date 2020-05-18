@@ -2,9 +2,10 @@ import React from 'react';
 
 const header = () => {
 	return (
-		<h1>
-			This is header
-		</h1>
+		<header>
+			<h1>Header</h1>
+			<p>Not wrapped by Context provider (in App.js), so doesn't have access to it.</p>
+		</header>
 	)
 }
 
